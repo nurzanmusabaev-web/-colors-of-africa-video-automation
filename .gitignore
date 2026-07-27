@@ -15,6 +15,7 @@ cache/
 *.png
 *.jpg
 !docs/**/*.png
+!docs/**/*.jpg
 
 # YouTube OAuth
 client_secret*.json
