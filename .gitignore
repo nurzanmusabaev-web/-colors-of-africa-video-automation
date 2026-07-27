@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Pipeline runtime data
+projects/
+footage/
+cache/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.png
+*.jpg
+!docs/**/*.png
+
+# YouTube OAuth
+client_secret*.json
+token.json

@@ -1,0 +1,78 @@
+# Профиль канала Colors of Africa.
+# Всё, что знает пайплайн о канале, живёт здесь. Меняешь тут — меняется во всех стадиях.
+
+channel:
+  id: UC_KbPxbWw3r6Nqjz8-lUAIg
+  title: Colors of Africa
+  language: en
+  country: US
+
+# Что реально работает на канале. Взято из фактических данных:
+# 9.28M просмотров шортсов против 377 у длинных за 2026 год.
+# Топ-шортсы — конфликт хищник/жертва с именами животных прямо в заголовке.
+proven_hooks:
+  - predator_vs_prey        # BUFFALO VS LIONS — 12.5M
+  - impossible_matchup      # IMPOSSIBLE BATTLE — 24.0M
+  - underdog_survival       # Unstoppable Will To Survive
+  - mother_defends_young    # Don't Touch Her Baby
+
+# Виды, которые доказанно тянут просмотры на этом канале.
+core_species:
+  - lion
+  - lioness
+  - buffalo
+  - hyena
+  - crocodile
+  - leopard
+  - cheetah
+  - hippo
+  - elephant
+  - rhino
+  - wildebeest
+  - warthog
+  - topi
+
+# Формат длинных видео. Компиляция-документалка вокруг одного конфликта,
+# а не обзорный travelogue — именно travelogue не взлетел (Seychelles: 224 просмотра).
+longform:
+  target_duration_sec: 780        # 13 минут — достаточно для 2 рекламных блоков
+  min_duration_sec: 600
+  max_duration_sec: 1080
+  segments: 6                     # сколько сюжетных блоков в видео
+  # Каждый блок должен заканчиваться открытым вопросом — это держит удержание.
+  cliffhanger_every_segment: true
+  # Первые 30 секунд решают всё. Холодная открывашка до титров.
+  cold_open_sec: 30
+  resolution: [1920, 1080]
+  fps: 30
+
+# Правила заголовка. Скоринг в coa/scoring.py опирается на них.
+title_rules:
+  max_chars: 70                   # обрезка в поиске начинается около 70
+  min_chars: 25
+  require_species: true           # хотя бы одно животное из core_species
+  require_conflict: true          # VS / противостояние / выживание
+  forbid_hashtags: true           # хэштеги в заголовке длинного видео — мусор
+  forbid_all_caps: true           # ВЕСЬ КАПС читается как спам на длинных
+  banned_words:                   # слова, которые тянули просмотры вниз
+    - documentary
+    - 4K
+    - relaxing
+    - compilation
+    - beautiful
+    - amazing nature
+
+thumbnail:
+  size: [1280, 720]
+  max_words: 3                    # больше трёх слов на превью не читается в ленте
+  style: high-contrast, single subject, face or teeth visible, no small text
+
+upload:
+  privacy_status: private         # пайплайн всегда заливает приватно; публикуешь вручную
+  category_id: "15"               # Pets & Animals
+  made_for_kids: false
+  default_tags:
+    - african wildlife
+    - wildlife documentary
+    - animal attack
+    - safari
