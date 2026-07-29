@@ -1,10 +1,11 @@
 @echo off
 rem Lioness: 300 Days - downloads all 47 animated clips as 0_07.mp4 .. 14_14.mp4
+rem Just double-click. Resumable: already-downloaded clips are skipped.
 setlocal
 cd /d "%~dp0"
 if not exist "lioness-clips" mkdir "lioness-clips"
-where curl.exe >nul 2>&1 || (echo curl.exe not found & pause & exit /b 1)
-set CURLOPTS=-fL --retry 4 --retry-delay 2 --retry-connrefused --connect-timeout 20 --max-time 600 -#
+where curl.exe >nul 2>&1 || (echo curl.exe not found - needs Windows 10 build 1803 or newer & pause & exit /b 1)
+set CURLOPTS=-fL --retry 4 --retry-delay 2 --retry-connrefused --connect-timeout 20 --max-time 900 -#
 echo Downloading 47 clips into lioness-clips\ ...
 echo.
 echo [1/47] 0_07.mp4
@@ -94,7 +95,7 @@ curl %CURLOPTS% -o "lioness-clips\12_36.mp4" "https://d8j0ntlcm91z4.cloudfront.n
 echo [43/47] 12_43.mp4
 curl %CURLOPTS% -o "lioness-clips\12_43.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191118_e7e56a23-e97f-4d5b-a201-cf42eafdf702.mp4"
 echo [44/47] 12_50.mp4
-curl %CURLOPTS% -o "lioness-clips\12_50.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191120_ac569210-f2e7-4f51-b8b3-e04a0a2fb157.mp4"
+curl %CURLOPTS% -o "lioness-clips\12_50.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_195619_44ff9480-4183-45f1-a8e4-2a295737fc5d.mp4"
 echo [45/47] 13_18.mp4
 curl %CURLOPTS% -o "lioness-clips\13_18.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191127_d60d8704-18e1-402e-ae2e-5344e1f00058.mp4"
 echo [46/47] 14_07.mp4
@@ -102,6 +103,7 @@ curl %CURLOPTS% -o "lioness-clips\14_07.mp4" "https://d8j0ntlcm91z4.cloudfront.n
 echo [47/47] 14_14.mp4
 curl %CURLOPTS% -o "lioness-clips\14_14.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191133_9040ef2d-ecb7-4e44-8083-5d8e4da2f9f7.mp4"
 echo.
-echo Done.
+echo Done. Counting files:
 dir /b "lioness-clips\*.mp4" | find /c ".mp4"
+echo (should be 47 - if fewer, run this file again)
 pause
