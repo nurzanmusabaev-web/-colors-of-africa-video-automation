@@ -1,12 +1,11 @@
-# 44 анимированных клипа, 1920x1080, 7 секунд
+# 47 анимированных клипов, 1920x1080, 7 секунд
 
-Higgsfield `kling3_0_turbo`, 14 кредитов за клип, 616 кредитов всего.
+Higgsfield `kling3_0_turbo`, 14 кредитов за клип, 658 кредитов всего.
 Имя файла = таймкод на монтажной линейке.
 
-`0_00` анимирован отдельно на Creative Fabrica. Три макро-кадра `2_13`, `2_20`,
-`8_24` придержаны до визуальной проверки. Остальные 76 кадров идут статикой
-с медленным наездом: мастера 5120x2880 на таймлайне 1080p дают наезд до 30%
-без потери резкости.
+`0_00` анимирован отдельно на Creative Fabrica, тоже 7 секунд.
+Остальные 75 кадров идут статикой с медленным наездом: мастера 5120x2880
+на таймлайне 1080p дают наезд до 30% без потери резкости.
 
 Скачать: `clips-download.bat` (двойной клик) либо по ссылкам ниже.
 
@@ -27,6 +26,8 @@ Higgsfield `kling3_0_turbo`, 14 кредитов за клип, 616 кредит
 | `1_31` | the thicket from outside at night, moon behind moving cloud, h | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190952_6d9b6cda-cad2-46a7-b22e-246243c6efca.mp4) |
 | `1_38` | cubs kneading rhythmically against the mother's belly, eyes st | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190955_0171a319-3ec7-4cdd-b455-19604c12ee56.mp4) |
 | `1_45` | lioness standing, cubs tumbling off her side into dust, she gl | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190959_883e66b8-48ee-4d6f-908a-04c0538eb364.mp4) |
+| `2_13` | extreme macro — a newborn eyelid parting for the first time, r | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_193015_4293914d-8439-4edb-aa96-9acb1f33051e.mp4) |
+| `2_20` | a cub's blue-grey iris slowly pulling into focus, catching a p | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_193017_1a0d82a3-bf09-4743-b121-c66a12bf999e.mp4) |
 | `3_02` | a cub pushing up onto all four legs, trembling, then collapsin | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191000_0e822e03-734e-4ac9-a6c5-8a86e615d4bb.mp4) |
 | `3_16` | first wobbling steps across the flattened grass of the den flo | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191002_2a69b935-6432-4723-8578-7b517313fa7b.mp4) |
 | `3_23` | a cub falling face-first, dust puffing around its head | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191015_ddf44d1f-8464-4a64-b125-8325ecc236ad.mp4) |
@@ -42,6 +43,7 @@ Higgsfield `kling3_0_turbo`, 14 кредитов за клип, 616 кредит
 | `7_35` | cubs drinking at a shallow muddy waterhole, reflections in sti | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191041_39b86bbf-a588-44f4-9de4-78ce1030b5b7.mp4) |
 | `7_42` | a cub startling backward from its own reflection | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191043_28ad619e-edcf-4a44-a8c2-9031471902c5.mp4) |
 | `8_03` | a zebra carcass in short grass, pride converging on it, dust r | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191051_ed56fc1e-a32e-425b-a9fb-d88ee484f476.mp4) |
+| `8_24` | extreme close-up of the cub's first bite of raw meat, milk tee | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_193019_ca75fab3-3f7f-4f4a-bac9-ed201809c362.mp4) |
 | `8_38` | an adult lioness snapping at a cub that pushed too far in — th | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191053_a9f8b402-e310-4058-a415-cd5dab43894f.mp4) |
 | `9_41` | hyenas fanning out in loose formation through dark grass | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191055_15529b20-032f-4811-9f30-8e321c014e6c.mp4) |
 | `9_48` | the lioness roaring, mouth wide, throat muscles taut in moonli | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191057_103108b9-839e-46c7-bd55-79d0a9783aa9.mp4) |
