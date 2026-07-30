@@ -1,16 +1,17 @@
-# 47 анимированных клипов, 1920x1080, 7 секунд
+# 57 анимированных клипов, 1920x1080, 7 секунд
 
 Higgsfield `kling3_0_turbo`. Имя файла = таймкод на монтажной линейке.
 
 `0_00` анимирован отдельно на Creative Fabrica, тоже 7 секунд, в списке ниже нет.
-Остальные 75 кадров идут статикой с наездом: мастера 5120x2880 на таймлайне
-1080p дают наезд до 30%% без потери резкости.
+Итого движется **58 кадр из 123**. В первой половине (0:00-7:07) анимировано
+**40 из 62** - удержание решается там. Остальные идут статикой с наездом:
+мастера 5120x2880 на таймлайне 1080p дают наезд до 30%% без потери резкости.
 
 ## Скачать
 
 - Windows: `clips-download.bat`, двойной клик
 - macOS / Linux: `bash clips-download.sh`
-- вручную: `urls.txt` или ссылки в таблице
+- вручную: `urls.txt`
 
 Оба скрипта возобновляемые: при обрыве запусти ещё раз.
 
@@ -33,20 +34,30 @@ Higgsfield `kling3_0_turbo`. Имя файла = таймкод на монта�
 | `1_31` | the thicket from outside at night, moon behind moving cloud, | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190952_6d9b6cda-cad2-46a7-b22e-246243c6efca.mp4) |
 | `1_38` | cubs kneading rhythmically against the mother's belly, eyes  | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190955_0171a319-3ec7-4cdd-b455-19604c12ee56.mp4) |
 | `1_45` | lioness standing, cubs tumbling off her side into dust, she  | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190959_883e66b8-48ee-4d6f-908a-04c0538eb364.mp4) |
+| `2_06` | lioness returning through tall grass at dusk, silhouette aga | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123651_2972e7ce-2fd8-4bc6-b8e3-caa8584aaa4d.mp4) |
 | `2_13` | extreme macro — a newborn eyelid parting for the first time, | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_193015_4293914d-8439-4edb-aa96-9acb1f33051e.mp4) |
 | `2_20` | a cub's blue-grey iris slowly pulling into focus, catching a | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_193017_1a0d82a3-bf09-4743-b121-c66a12bf999e.mp4) |
+| `2_55` | cubs blinking against the first daylight reaching into the t | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123654_ccd1eca2-961a-4fef-a2f8-2562aa201c16.mp4) |
 | `3_02` | a cub pushing up onto all four legs, trembling, then collaps | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191000_0e822e03-734e-4ac9-a6c5-8a86e615d4bb.mp4) |
+| `3_09` | the same cub standing, legs splayed wide, holding the positi | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123658_7ab096b7-6603-480a-adde-c1658c7cb4ae.mp4) |
 | `3_16` | first wobbling steps across the flattened grass of the den f | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191002_2a69b935-6432-4723-8578-7b517313fa7b.mp4) |
 | `3_23` | a cub falling face-first, dust puffing around its head | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191015_ddf44d1f-8464-4a64-b125-8325ecc236ad.mp4) |
+| `3_30` | two cubs walking unsteadily side by side toward their mother | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123701_e0cd9619-d616-476e-b53d-97a34d791cc7.mp4) |
 | `3_37` | lioness carrying a cub by the scruff across open ground, cub | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191017_fb328308-49ad-4077-ba96-9fdb342670c4.mp4) |
+| `3_44` | she lowers the cub into a new hollow beneath a different bus | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123705_2fca36c8-963e-4cd2-9a8c-6bef3a44bfea.mp4) |
+| `3_51` | wide shot of her walking back the way she came, the relocate | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123707_efe7955b-86ea-4e02-ba8d-d1d5059872a4.mp4) |
 | `4_19` | a cub gnawing experimentally on a dry twig, jaw working | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191019_397d2086-6b99-44ca-8c8a-c6e41d692dc1.mp4) |
+| `5_01` | dawn light entering the thicket, cubs already awake and movi | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123722_046fd128-418c-47bd-bec9-734a7709c630.mp4) |
 | `5_08` | a cub crouching low in grass, shoulders down, eyes locked on | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191021_8d2b8c2e-901e-4011-ab26-ce949294b143.mp4) |
 | `5_15` | the cub exploding forward and slamming into its sibling, bot | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191023_ae912151-cd3a-4812-940f-b0c19249f62e.mp4) |
 | `5_22` | two cubs wrestling upright on hind legs, paws locked, mouths | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191025_1ea1b12e-bef1-41fd-aeae-ee336b9a926c.mp4) |
+| `5_29` | a cub stalking a wind-blown feather with total seriousness | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123728_66bfe1af-384a-46eb-b416-edcf074121d2.mp4) |
 | `5_36` | cub pouncing on nothing at all, front paws pinning bare dirt | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191032_25448d14-e2dc-46ce-9a27-987aac965f23.mp4) |
+| `5_50` | cub biting the back of a sibling's neck — the killing grip,  | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123730_c2b62394-2a05-43db-971d-6b622a8287e8.mp4) |
 | `6_11` | three cubs ambushing the fourth from three directions simult | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191034_03634a7f-132b-41ce-a606-bff35bb3818d.mp4) |
 | `6_18` | cub tumbling down a shallow bank, legs everywhere | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191036_bd503047-de0b-4d48-abbd-6b766403c8a5.mp4) |
 | `6_32` | mother's tail flicking slowly in grass, four cubs stalking i | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191039_194090ef-8fbf-4d90-b93e-a1330358901c.mp4) |
+| `6_39` | silhouettes of cubs play-fighting against a setting sun | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123731_5111d2e1-995f-49f8-bed0-c751e3155b54.mp4) |
 | `7_35` | cubs drinking at a shallow muddy waterhole, reflections in s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191041_39b86bbf-a588-44f4-9de4-78ce1030b5b7.mp4) |
 | `7_42` | a cub startling backward from its own reflection | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191043_28ad619e-edcf-4a44-a8c2-9031471902c5.mp4) |
 | `8_03` | a zebra carcass in short grass, pride converging on it, dust | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191051_ed56fc1e-a32e-425b-a9fb-d88ee484f476.mp4) |
@@ -68,6 +79,5 @@ Higgsfield `kling3_0_turbo`. Имя файла = таймкод на монта�
 
 ## Заменённые
 
-`12_50` перегенерирован: в первой версии заяц терял голову на бегу. Кадр перерисован с зайцем крупно и в профиль, затем анимирован заново.
-
-Первая версия, если вдруг понадобится: <https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191120_ac569210-f2e7-4f51-b8b3-e04a0a2fb157.mp4>
+`12_50` перегенерирован: в первой версии заяц терял голову на бегу.
+Кадр перерисован с зайцем крупно и в профиль, затем анимирован заново.

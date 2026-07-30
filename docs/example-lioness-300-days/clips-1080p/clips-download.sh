@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Downloads all 47 clips as 0_07.mp4 .. 14_14.mp4
+# Downloads all 57 clips as 0_07.mp4 .. 14_14.mp4
 set -euo pipefail
 cd "$(dirname "$0")"
 mkdir -p lioness-clips
@@ -11,4 +11,4 @@ while IFS=$'\t' read -r n u; do
   curl -fL --retry 4 --retry-delay 2 --connect-timeout 20 --max-time 900 -# -o "$out" "$u"
   echo "[$i/$total] $n.mp4"
 done < clips.tsv
-echo "Готово: $(ls -1 lioness-clips/*.mp4 | wc -l) из 47"
+echo "Готово: $(ls -1 lioness-clips/*.mp4 | wc -l) из 57"

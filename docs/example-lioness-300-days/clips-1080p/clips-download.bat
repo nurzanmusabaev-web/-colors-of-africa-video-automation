@@ -1,109 +1,129 @@
 @echo off
-rem Lioness: 300 Days - downloads all 47 animated clips as 0_07.mp4 .. 14_14.mp4
+rem Lioness: 300 Days - downloads all 57 animated clips as 0_07.mp4 .. 14_14.mp4
 rem Just double-click. Resumable: already-downloaded clips are skipped.
 setlocal
 cd /d "%~dp0"
 if not exist "lioness-clips" mkdir "lioness-clips"
 where curl.exe >nul 2>&1 || (echo curl.exe not found - needs Windows 10 build 1803 or newer & pause & exit /b 1)
 set CURLOPTS=-fL --retry 4 --retry-delay 2 --retry-connrefused --connect-timeout 20 --max-time 900 -#
-echo Downloading 47 clips into lioness-clips\ ...
+echo Downloading 57 clips into lioness-clips\ ...
 echo.
-echo [1/47] 0_07.mp4
+echo [1/57] 0_07.mp4
 curl %CURLOPTS% -o "lioness-clips\0_07.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190903_23cbc7e9-8f0d-4a46-b022-4a391eeb74e7.mp4"
-echo [2/47] 0_14.mp4
+echo [2/57] 0_14.mp4
 curl %CURLOPTS% -o "lioness-clips\0_14.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190905_c6d42f7c-1068-48d2-b93d-765f408b5f16.mp4"
-echo [3/47] 0_21.mp4
+echo [3/57] 0_21.mp4
 curl %CURLOPTS% -o "lioness-clips\0_21.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190933_36be5045-35a3-4b2d-9e2d-63204b4ba3e7.mp4"
-echo [4/47] 0_28.mp4
+echo [4/57] 0_28.mp4
 curl %CURLOPTS% -o "lioness-clips\0_28.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190909_ec33ff94-8e41-477e-8824-ee3fc098bd33.mp4"
-echo [5/47] 0_35.mp4
+echo [5/57] 0_35.mp4
 curl %CURLOPTS% -o "lioness-clips\0_35.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190911_78361a81-bf2f-4b99-9f99-08a359939f74.mp4"
-echo [6/47] 0_42.mp4
+echo [6/57] 0_42.mp4
 curl %CURLOPTS% -o "lioness-clips\0_42.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190912_fb6c7764-3eff-4763-bea3-16ccd6711b6a.mp4"
-echo [7/47] 0_49.mp4
+echo [7/57] 0_49.mp4
 curl %CURLOPTS% -o "lioness-clips\0_49.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190934_76a43838-d19e-478f-bfcb-df7119823471.mp4"
-echo [8/47] 0_56.mp4
+echo [8/57] 0_56.mp4
 curl %CURLOPTS% -o "lioness-clips\0_56.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190936_5a900913-738c-465e-a0cc-fad57b7a4fa9.mp4"
-echo [9/47] 1_03.mp4
+echo [9/57] 1_03.mp4
 curl %CURLOPTS% -o "lioness-clips\1_03.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190938_20c8fc9e-9ebe-4132-9cdf-224af63b9328.mp4"
-echo [10/47] 1_10.mp4
+echo [10/57] 1_10.mp4
 curl %CURLOPTS% -o "lioness-clips\1_10.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190940_108071fd-4990-4e3d-8162-06b7c01457a3.mp4"
-echo [11/47] 1_17.mp4
+echo [11/57] 1_17.mp4
 curl %CURLOPTS% -o "lioness-clips\1_17.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190943_f4cf0ada-cb36-407d-bbc1-86406ca22570.mp4"
-echo [12/47] 1_24.mp4
+echo [12/57] 1_24.mp4
 curl %CURLOPTS% -o "lioness-clips\1_24.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190950_d058dc6d-112e-43e4-88f7-ec1e8d07f52e.mp4"
-echo [13/47] 1_31.mp4
+echo [13/57] 1_31.mp4
 curl %CURLOPTS% -o "lioness-clips\1_31.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190952_6d9b6cda-cad2-46a7-b22e-246243c6efca.mp4"
-echo [14/47] 1_38.mp4
+echo [14/57] 1_38.mp4
 curl %CURLOPTS% -o "lioness-clips\1_38.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190955_0171a319-3ec7-4cdd-b455-19604c12ee56.mp4"
-echo [15/47] 1_45.mp4
+echo [15/57] 1_45.mp4
 curl %CURLOPTS% -o "lioness-clips\1_45.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_190959_883e66b8-48ee-4d6f-908a-04c0538eb364.mp4"
-echo [16/47] 2_13.mp4
+echo [16/57] 2_06.mp4
+curl %CURLOPTS% -o "lioness-clips\2_06.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123651_2972e7ce-2fd8-4bc6-b8e3-caa8584aaa4d.mp4"
+echo [17/57] 2_13.mp4
 curl %CURLOPTS% -o "lioness-clips\2_13.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_193015_4293914d-8439-4edb-aa96-9acb1f33051e.mp4"
-echo [17/47] 2_20.mp4
+echo [18/57] 2_20.mp4
 curl %CURLOPTS% -o "lioness-clips\2_20.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_193017_1a0d82a3-bf09-4743-b121-c66a12bf999e.mp4"
-echo [18/47] 3_02.mp4
+echo [19/57] 2_55.mp4
+curl %CURLOPTS% -o "lioness-clips\2_55.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123654_ccd1eca2-961a-4fef-a2f8-2562aa201c16.mp4"
+echo [20/57] 3_02.mp4
 curl %CURLOPTS% -o "lioness-clips\3_02.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191000_0e822e03-734e-4ac9-a6c5-8a86e615d4bb.mp4"
-echo [19/47] 3_16.mp4
+echo [21/57] 3_09.mp4
+curl %CURLOPTS% -o "lioness-clips\3_09.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123658_7ab096b7-6603-480a-adde-c1658c7cb4ae.mp4"
+echo [22/57] 3_16.mp4
 curl %CURLOPTS% -o "lioness-clips\3_16.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191002_2a69b935-6432-4723-8578-7b517313fa7b.mp4"
-echo [20/47] 3_23.mp4
+echo [23/57] 3_23.mp4
 curl %CURLOPTS% -o "lioness-clips\3_23.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191015_ddf44d1f-8464-4a64-b125-8325ecc236ad.mp4"
-echo [21/47] 3_37.mp4
+echo [24/57] 3_30.mp4
+curl %CURLOPTS% -o "lioness-clips\3_30.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123701_e0cd9619-d616-476e-b53d-97a34d791cc7.mp4"
+echo [25/57] 3_37.mp4
 curl %CURLOPTS% -o "lioness-clips\3_37.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191017_fb328308-49ad-4077-ba96-9fdb342670c4.mp4"
-echo [22/47] 4_19.mp4
+echo [26/57] 3_44.mp4
+curl %CURLOPTS% -o "lioness-clips\3_44.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123705_2fca36c8-963e-4cd2-9a8c-6bef3a44bfea.mp4"
+echo [27/57] 3_51.mp4
+curl %CURLOPTS% -o "lioness-clips\3_51.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123707_efe7955b-86ea-4e02-ba8d-d1d5059872a4.mp4"
+echo [28/57] 4_19.mp4
 curl %CURLOPTS% -o "lioness-clips\4_19.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191019_397d2086-6b99-44ca-8c8a-c6e41d692dc1.mp4"
-echo [23/47] 5_08.mp4
+echo [29/57] 5_01.mp4
+curl %CURLOPTS% -o "lioness-clips\5_01.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123722_046fd128-418c-47bd-bec9-734a7709c630.mp4"
+echo [30/57] 5_08.mp4
 curl %CURLOPTS% -o "lioness-clips\5_08.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191021_8d2b8c2e-901e-4011-ab26-ce949294b143.mp4"
-echo [24/47] 5_15.mp4
+echo [31/57] 5_15.mp4
 curl %CURLOPTS% -o "lioness-clips\5_15.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191023_ae912151-cd3a-4812-940f-b0c19249f62e.mp4"
-echo [25/47] 5_22.mp4
+echo [32/57] 5_22.mp4
 curl %CURLOPTS% -o "lioness-clips\5_22.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191025_1ea1b12e-bef1-41fd-aeae-ee336b9a926c.mp4"
-echo [26/47] 5_36.mp4
+echo [33/57] 5_29.mp4
+curl %CURLOPTS% -o "lioness-clips\5_29.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123728_66bfe1af-384a-46eb-b416-edcf074121d2.mp4"
+echo [34/57] 5_36.mp4
 curl %CURLOPTS% -o "lioness-clips\5_36.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191032_25448d14-e2dc-46ce-9a27-987aac965f23.mp4"
-echo [27/47] 6_11.mp4
+echo [35/57] 5_50.mp4
+curl %CURLOPTS% -o "lioness-clips\5_50.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123730_c2b62394-2a05-43db-971d-6b622a8287e8.mp4"
+echo [36/57] 6_11.mp4
 curl %CURLOPTS% -o "lioness-clips\6_11.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191034_03634a7f-132b-41ce-a606-bff35bb3818d.mp4"
-echo [28/47] 6_18.mp4
+echo [37/57] 6_18.mp4
 curl %CURLOPTS% -o "lioness-clips\6_18.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191036_bd503047-de0b-4d48-abbd-6b766403c8a5.mp4"
-echo [29/47] 6_32.mp4
+echo [38/57] 6_32.mp4
 curl %CURLOPTS% -o "lioness-clips\6_32.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191039_194090ef-8fbf-4d90-b93e-a1330358901c.mp4"
-echo [30/47] 7_35.mp4
+echo [39/57] 6_39.mp4
+curl %CURLOPTS% -o "lioness-clips\6_39.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260730_123731_5111d2e1-995f-49f8-bed0-c751e3155b54.mp4"
+echo [40/57] 7_35.mp4
 curl %CURLOPTS% -o "lioness-clips\7_35.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191041_39b86bbf-a588-44f4-9de4-78ce1030b5b7.mp4"
-echo [31/47] 7_42.mp4
+echo [41/57] 7_42.mp4
 curl %CURLOPTS% -o "lioness-clips\7_42.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191043_28ad619e-edcf-4a44-a8c2-9031471902c5.mp4"
-echo [32/47] 8_03.mp4
+echo [42/57] 8_03.mp4
 curl %CURLOPTS% -o "lioness-clips\8_03.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191051_ed56fc1e-a32e-425b-a9fb-d88ee484f476.mp4"
-echo [33/47] 8_24.mp4
+echo [43/57] 8_24.mp4
 curl %CURLOPTS% -o "lioness-clips\8_24.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_193019_ca75fab3-3f7f-4f4a-bac9-ed201809c362.mp4"
-echo [34/47] 8_38.mp4
+echo [44/57] 8_38.mp4
 curl %CURLOPTS% -o "lioness-clips\8_38.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191053_a9f8b402-e310-4058-a415-cd5dab43894f.mp4"
-echo [35/47] 9_41.mp4
+echo [45/57] 9_41.mp4
 curl %CURLOPTS% -o "lioness-clips\9_41.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191055_15529b20-032f-4811-9f30-8e321c014e6c.mp4"
-echo [36/47] 9_48.mp4
+echo [46/57] 9_48.mp4
 curl %CURLOPTS% -o "lioness-clips\9_48.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191057_103108b9-839e-46c7-bd55-79d0a9783aa9.mp4"
-echo [37/47] 9_55.mp4
+echo [47/57] 9_55.mp4
 curl %CURLOPTS% -o "lioness-clips\9_55.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191100_5fa26478-c2dc-41d6-927b-f8afa2a5679b.mp4"
-echo [38/47] 10_09.mp4
+echo [48/57] 10_09.mp4
 curl %CURLOPTS% -o "lioness-clips\10_09.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191102_8a4f10fa-1daa-4feb-979b-55a6e4a8d6ba.mp4"
-echo [39/47] 11_19.mp4
+echo [49/57] 11_19.mp4
 curl %CURLOPTS% -o "lioness-clips\11_19.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191109_87c05d3b-9155-411f-8df3-7c923a90c321.mp4"
-echo [40/47] 11_26.mp4
+echo [50/57] 11_26.mp4
 curl %CURLOPTS% -o "lioness-clips\11_26.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191111_316af0c7-28c0-413d-bb0c-ed2c572eb95b.mp4"
-echo [41/47] 11_40.mp4
+echo [51/57] 11_40.mp4
 curl %CURLOPTS% -o "lioness-clips\11_40.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191113_afcbd764-dcdf-44af-b391-305c6e0e0bf6.mp4"
-echo [42/47] 12_36.mp4
+echo [52/57] 12_36.mp4
 curl %CURLOPTS% -o "lioness-clips\12_36.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191116_1b6a2da4-48b8-429c-95f3-2158677b0164.mp4"
-echo [43/47] 12_43.mp4
+echo [53/57] 12_43.mp4
 curl %CURLOPTS% -o "lioness-clips\12_43.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191118_e7e56a23-e97f-4d5b-a201-cf42eafdf702.mp4"
-echo [44/47] 12_50.mp4
+echo [54/57] 12_50.mp4
 curl %CURLOPTS% -o "lioness-clips\12_50.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_195619_44ff9480-4183-45f1-a8e4-2a295737fc5d.mp4"
-echo [45/47] 13_18.mp4
+echo [55/57] 13_18.mp4
 curl %CURLOPTS% -o "lioness-clips\13_18.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191127_d60d8704-18e1-402e-ae2e-5344e1f00058.mp4"
-echo [46/47] 14_07.mp4
+echo [56/57] 14_07.mp4
 curl %CURLOPTS% -o "lioness-clips\14_07.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191130_0106c400-1a38-40d9-b7a0-bacc9835931a.mp4"
-echo [47/47] 14_14.mp4
+echo [57/57] 14_14.mp4
 curl %CURLOPTS% -o "lioness-clips\14_14.mp4" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260729_191133_9040ef2d-ecb7-4e44-8083-5d8e4da2f9f7.mp4"
 echo.
 echo Done. Counting files:
 dir /b "lioness-clips\*.mp4" | find /c ".mp4"
-echo (should be 47 - if fewer, run this file again)
+echo (should be 57 - if fewer, run this file again)
 pause
