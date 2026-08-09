@@ -1,115 +1,88 @@
 @echo off
-rem Secretary Bird - downloads the 51 corrected frames into a SEPARATE folder (secretary-fixed-51)
-rem The old secretary-frames folder is left untouched, so you can compare side by side.
+rem Secretary Bird - the 38 frames fixed in round 2
 setlocal
 cd /d "%~dp0"
-if not exist "secretary-fixed-51" mkdir "secretary-fixed-51"
+if not exist "secretary-fixed-38" mkdir "secretary-fixed-38"
 where curl.exe >nul 2>&1 || (echo curl.exe not found & pause & exit /b 1)
 set CURLOPTS=-fL --retry 4 --retry-delay 2 --retry-connrefused --connect-timeout 20 --max-time 600 -#
-echo Downloading 51 corrected frames into secretary-fixed-51\ ...
+echo Downloading 38 frames into secretary-fixed-38\ ...
 echo.
-echo [1/51] 0_00.png
-curl %CURLOPTS% -o "secretary-fixed-51\0_00.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_e82cd712-d2ce-40cd-adb6-8939ce0bd3e4.png"
-echo [2/51] 0_14.png
-curl %CURLOPTS% -o "secretary-fixed-51\0_14.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061732_3e9ba676-0942-4725-b8ad-32e98916d43a.png"
-echo [3/51] 0_21.png
-curl %CURLOPTS% -o "secretary-fixed-51\0_21.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_dd3aa3c5-0219-40ba-b44b-320e842f47df.png"
-echo [4/51] 0_49.png
-curl %CURLOPTS% -o "secretary-fixed-51\0_49.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_15393c28-68cb-4d3c-bc60-164c82890df3.png"
-echo [5/51] 1_03.png
-curl %CURLOPTS% -o "secretary-fixed-51\1_03.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_31ce73c2-a7cb-4e56-9809-8c6b7b2ace80.png"
-echo [6/51] 1_17.png
-curl %CURLOPTS% -o "secretary-fixed-51\1_17.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061731_ef2e01e1-710d-42e9-9fcc-aefe3cf480cb.png"
-echo [7/51] 1_24.png
-curl %CURLOPTS% -o "secretary-fixed-51\1_24.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_9137a265-c677-4fb6-8c82-f5f72dcf85f2.png"
-echo [8/51] 1_31.png
-curl %CURLOPTS% -o "secretary-fixed-51\1_31.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_892dd177-af87-4583-abf9-ae622d3c2ef5.png"
-echo [9/51] 1_38.png
-curl %CURLOPTS% -o "secretary-fixed-51\1_38.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_f047f7b3-2c1c-4f20-b945-167086b94cd7.png"
-echo [10/51] 1_45.png
-curl %CURLOPTS% -o "secretary-fixed-51\1_45.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_2a94c957-06da-44d9-97b1-ab3f2144c9ea.png"
-echo [11/51] 1_52.png
-curl %CURLOPTS% -o "secretary-fixed-51\1_52.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_f3d0e446-3c69-4b9a-a855-5fcd91e8019d.png"
-echo [12/51] 1_59.png
-curl %CURLOPTS% -o "secretary-fixed-51\1_59.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061206_41b2bda3-f227-49d8-8f7b-fae2002c6ae6.png"
-echo [13/51] 2_06.png
-curl %CURLOPTS% -o "secretary-fixed-51\2_06.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_21ec1971-b424-47b5-8d11-c2a74a7fcda2.png"
-echo [14/51] 2_13.png
-curl %CURLOPTS% -o "secretary-fixed-51\2_13.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_99e9b4d0-b8b5-4883-b47e-0552810c16bc.png"
-echo [15/51] 2_20.png
-curl %CURLOPTS% -o "secretary-fixed-51\2_20.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_dbeac200-5f5f-488f-9e08-32b1ac519319.png"
-echo [16/51] 2_27.png
-curl %CURLOPTS% -o "secretary-fixed-51\2_27.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_b90b884a-22df-434f-ab37-9043cc7be087.png"
-echo [17/51] 2_34.png
-curl %CURLOPTS% -o "secretary-fixed-51\2_34.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_aa6879f6-7c20-4f26-9c8b-381d478bb60a.png"
-echo [18/51] 2_41.png
-curl %CURLOPTS% -o "secretary-fixed-51\2_41.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_730a823f-9ccf-4d5b-8ff6-b98939370d8e.png"
-echo [19/51] 2_48.png
-curl %CURLOPTS% -o "secretary-fixed-51\2_48.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_77258c53-e947-490e-b9ee-772e684921c2.png"
-echo [20/51] 2_55.png
-curl %CURLOPTS% -o "secretary-fixed-51\2_55.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_cf5c5440-d27f-4a9f-87a7-968e883c92e2.png"
-echo [21/51] 3_02.png
-curl %CURLOPTS% -o "secretary-fixed-51\3_02.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_9a0eed03-b781-47e0-819a-d396b71cf647.png"
-echo [22/51] 3_09.png
-curl %CURLOPTS% -o "secretary-fixed-51\3_09.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_6effed81-d3e2-4722-a299-2334c3df70af.png"
-echo [23/51] 3_16.png
-curl %CURLOPTS% -o "secretary-fixed-51\3_16.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_93aea647-59f3-4480-b352-230ce529bcd4.png"
-echo [24/51] 3_23.png
-curl %CURLOPTS% -o "secretary-fixed-51\3_23.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_061938_aaab647c-900f-4f14-a99c-b7b9f7867c2b.png"
-echo [25/51] 3_30.png
-curl %CURLOPTS% -o "secretary-fixed-51\3_30.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_9072ea5a-8848-4ebf-b560-ce529944de78.png"
-echo [26/51] 3_37.png
-curl %CURLOPTS% -o "secretary-fixed-51\3_37.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062753_b0928dd8-a258-4e51-b9aa-32d54cd7d109.png"
-echo [27/51] 3_44.png
-curl %CURLOPTS% -o "secretary-fixed-51\3_44.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_7e74e3e2-207e-4a2b-9bab-567c66675565.png"
-echo [28/51] 3_51.png
-curl %CURLOPTS% -o "secretary-fixed-51\3_51.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_675df400-2fc5-41a5-a2ab-fe43df42f328.png"
-echo [29/51] 3_58.png
-curl %CURLOPTS% -o "secretary-fixed-51\3_58.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_4e5b8e74-ced7-4a5d-89e0-88c9b923bb8e.png"
-echo [30/51] 4_05.png
-curl %CURLOPTS% -o "secretary-fixed-51\4_05.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_0c3bb6e0-6756-4763-8eb0-4e9218db288a.png"
-echo [31/51] 4_12.png
-curl %CURLOPTS% -o "secretary-fixed-51\4_12.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_27c3855a-b651-4e08-8fa3-5baef98c6e58.png"
-echo [32/51] 4_19.png
-curl %CURLOPTS% -o "secretary-fixed-51\4_19.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_5c48b539-7735-4725-9082-d2a4b6b2bc81.png"
-echo [33/51] 4_26.png
-curl %CURLOPTS% -o "secretary-fixed-51\4_26.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_a58dac06-1355-47c0-9a5b-b7f029582957.png"
-echo [34/51] 4_33.png
-curl %CURLOPTS% -o "secretary-fixed-51\4_33.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_12a078e2-5d4a-4d61-82dc-1748323e486e.png"
-echo [35/51] 4_40.png
-curl %CURLOPTS% -o "secretary-fixed-51\4_40.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_2aca1c57-fbd4-45d5-ac3e-7faf8e72ede5.png"
-echo [36/51] 4_54.png
-curl %CURLOPTS% -o "secretary-fixed-51\4_54.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062526_81461042-9261-4299-83d6-a43bd3381e7e.png"
-echo [37/51] 5_01.png
-curl %CURLOPTS% -o "secretary-fixed-51\5_01.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062753_c3287569-7f67-4825-b947-0841d1c05679.png"
-echo [38/51] 5_08.png
-curl %CURLOPTS% -o "secretary-fixed-51\5_08.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062753_2680efdd-ea09-488b-a320-fe0cdbc817b9.png"
-echo [39/51] 5_15.png
-curl %CURLOPTS% -o "secretary-fixed-51\5_15.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062753_ad322721-4d07-43d4-a344-abf6cc58cae9.png"
-echo [40/51] 5_22.png
-curl %CURLOPTS% -o "secretary-fixed-51\5_22.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062753_b3f01316-3d41-447d-b56a-360311509e93.png"
-echo [41/51] 5_29.png
-curl %CURLOPTS% -o "secretary-fixed-51\5_29.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062753_7a5c6e5d-d2b1-4222-b010-06fdd567d696.png"
-echo [42/51] 5_36.png
-curl %CURLOPTS% -o "secretary-fixed-51\5_36.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062753_66534f0f-0db3-4b80-a5e5-c17730f296d8.png"
-echo [43/51] 5_57.png
-curl %CURLOPTS% -o "secretary-fixed-51\5_57.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062954_81d4e315-2fbf-4f5b-8aab-a85c61b46127.png"
-echo [44/51] 6_04.png
-curl %CURLOPTS% -o "secretary-fixed-51\6_04.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062754_200d8a54-b634-412f-8eea-f96ecbd89d03.png"
-echo [45/51] 6_11.png
-curl %CURLOPTS% -o "secretary-fixed-51\6_11.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062753_c64bfcf7-19b4-44fa-88d7-d5f75767af4f.png"
-echo [46/51] 6_32.png
-curl %CURLOPTS% -o "secretary-fixed-51\6_32.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062754_fd3142e2-7dad-4ac1-8d28-d2ac1634de9d.png"
-echo [47/51] 6_39.png
-curl %CURLOPTS% -o "secretary-fixed-51\6_39.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062754_a77087d3-1e04-44e2-96a7-e4a321fa14cb.png"
-echo [48/51] 6_46.png
-curl %CURLOPTS% -o "secretary-fixed-51\6_46.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062954_8ee5c925-7767-46d8-a6cf-a4ee72740eec.png"
-echo [49/51] 6_53.png
-curl %CURLOPTS% -o "secretary-fixed-51\6_53.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062954_94f43fc1-bf9f-44dc-90d3-f7c2ab8b854b.png"
-echo [50/51] 7_07.png
-curl %CURLOPTS% -o "secretary-fixed-51\7_07.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062954_b3bb5fc0-9922-48ee-800a-e73ef0fe2e1b.png"
-echo [51/51] 7_14.png
-curl %CURLOPTS% -o "secretary-fixed-51\7_14.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_062954_982917bb-a4bb-49df-b92d-94c0c16c3946.png"
+echo [1/38] 1_17.png
+curl %CURLOPTS% -o "secretary-fixed-38\1_17.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_9f4a17be-2019-49c1-bd70-921ae55c1167.png"
+echo [2/38] 1_24.png
+curl %CURLOPTS% -o "secretary-fixed-38\1_24.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_ba2b7445-6d5a-4165-8e6d-36d8bcb8f699.png"
+echo [3/38] 1_31.png
+curl %CURLOPTS% -o "secretary-fixed-38\1_31.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_e8fe3671-5607-4b4f-8dfc-0b352ebca4c4.png"
+echo [4/38] 1_38.png
+curl %CURLOPTS% -o "secretary-fixed-38\1_38.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_f5675614-52e9-4599-8988-37a840dc9db6.png"
+echo [5/38] 1_45.png
+curl %CURLOPTS% -o "secretary-fixed-38\1_45.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_fd7a6056-ed89-4c68-a4c2-d6ad752c042e.png"
+echo [6/38] 1_52.png
+curl %CURLOPTS% -o "secretary-fixed-38\1_52.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_00cd1f1c-fae9-4e34-8645-4532e6eda26a.png"
+echo [7/38] 1_59.png
+curl %CURLOPTS% -o "secretary-fixed-38\1_59.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_0a115dc9-3b6b-44e3-a208-5de53e03e67b.png"
+echo [8/38] 2_06.png
+curl %CURLOPTS% -o "secretary-fixed-38\2_06.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_3d15bd3a-4ba1-4014-9202-89ddc9d5f5b2.png"
+echo [9/38] 2_13.png
+curl %CURLOPTS% -o "secretary-fixed-38\2_13.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_f4db4302-a44b-49fd-87ac-a479f6dfd8f7.png"
+echo [10/38] 2_20.png
+curl %CURLOPTS% -o "secretary-fixed-38\2_20.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_84582e76-a701-448f-aac5-355b5de1ce15.png"
+echo [11/38] 2_27.png
+curl %CURLOPTS% -o "secretary-fixed-38\2_27.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_8bfe2086-0aa3-4971-a87d-28498a5fbc7b.png"
+echo [12/38] 2_34.png
+curl %CURLOPTS% -o "secretary-fixed-38\2_34.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131803_4abbd5e3-eaf3-4df7-81b5-e399672587bf.png"
+echo [13/38] 2_41.png
+curl %CURLOPTS% -o "secretary-fixed-38\2_41.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_c78a45ce-ea98-407c-8dcc-6b7593b2c8b4.png"
+echo [14/38] 3_16.png
+curl %CURLOPTS% -o "secretary-fixed-38\3_16.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_9b9588e7-e0ec-4e3a-90e2-4d9d078b6cfc.png"
+echo [15/38] 3_23.png
+curl %CURLOPTS% -o "secretary-fixed-38\3_23.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_b8afa5cf-dbed-4713-a9a7-9951d3e84e0e.png"
+echo [16/38] 3_30.png
+curl %CURLOPTS% -o "secretary-fixed-38\3_30.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_67a5bad1-c524-42af-8d21-8d1d378969fc.png"
+echo [17/38] 3_37.png
+curl %CURLOPTS% -o "secretary-fixed-38\3_37.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_c4ef9183-b60b-49c8-82e6-0ce318c3447f.png"
+echo [18/38] 3_44.png
+curl %CURLOPTS% -o "secretary-fixed-38\3_44.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_f0f91427-f100-441c-9c00-aacc5fc7d1e8.png"
+echo [19/38] 3_58.png
+curl %CURLOPTS% -o "secretary-fixed-38\3_58.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_13d1c7c8-1e0f-4a84-b3ae-b07b6d05f419.png"
+echo [20/38] 4_12.png
+curl %CURLOPTS% -o "secretary-fixed-38\4_12.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_93b27a11-324a-4a52-b728-737106dfd926.png"
+echo [21/38] 4_33.png
+curl %CURLOPTS% -o "secretary-fixed-38\4_33.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_e2f3f2ca-6280-4303-8c42-ea7f18e1c964.png"
+echo [22/38] 4_40.png
+curl %CURLOPTS% -o "secretary-fixed-38\4_40.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_95cd6260-2467-420a-96d8-cd61016a4a34.png"
+echo [23/38] 4_54.png
+curl %CURLOPTS% -o "secretary-fixed-38\4_54.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_ef2cf990-a839-4e74-9c88-4e7416eb2d3d.png"
+echo [24/38] 5_01.png
+curl %CURLOPTS% -o "secretary-fixed-38\5_01.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_131918_93f66535-2c5b-4f56-b442-9c82fd81f969.png"
+echo [25/38] 5_08.png
+curl %CURLOPTS% -o "secretary-fixed-38\5_08.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_831f048f-103b-4d12-bf25-ec26de53757a.png"
+echo [26/38] 5_15.png
+curl %CURLOPTS% -o "secretary-fixed-38\5_15.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_a6a065bd-c972-4ad9-835b-0863d061fa56.png"
+echo [27/38] 5_22.png
+curl %CURLOPTS% -o "secretary-fixed-38\5_22.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_dc76b3d0-fffa-49f4-96b8-2fae487486e7.png"
+echo [28/38] 5_29.png
+curl %CURLOPTS% -o "secretary-fixed-38\5_29.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_181ee47e-dd83-4d12-bab0-535fffac33f2.png"
+echo [29/38] 5_36.png
+curl %CURLOPTS% -o "secretary-fixed-38\5_36.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_6da5dad0-f0e4-4624-9b25-6a975335b2bd.png"
+echo [30/38] 5_57.png
+curl %CURLOPTS% -o "secretary-fixed-38\5_57.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_de8666e2-fa71-4b71-97e0-ecc97a30d087.png"
+echo [31/38] 6_04.png
+curl %CURLOPTS% -o "secretary-fixed-38\6_04.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_c88c20d3-82bc-4212-8d32-2e517779ba99.png"
+echo [32/38] 6_11.png
+curl %CURLOPTS% -o "secretary-fixed-38\6_11.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_b17f39ea-8a55-43a0-b609-c2667222080c.png"
+echo [33/38] 6_32.png
+curl %CURLOPTS% -o "secretary-fixed-38\6_32.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_71d7780d-f74f-4630-900c-2b175b0aa82d.png"
+echo [34/38] 6_39.png
+curl %CURLOPTS% -o "secretary-fixed-38\6_39.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132027_929a046a-f370-4907-816d-1622114131a9.png"
+echo [35/38] 6_46.png
+curl %CURLOPTS% -o "secretary-fixed-38\6_46.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132026_d9b902ef-5c99-44ec-8c17-f776558c9ff8.png"
+echo [36/38] 6_53.png
+curl %CURLOPTS% -o "secretary-fixed-38\6_53.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132142_94b7e2d3-1c8f-4468-835f-c992a378a877.png"
+echo [37/38] 7_07.png
+curl %CURLOPTS% -o "secretary-fixed-38\7_07.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132142_e97ea788-4c94-4280-9778-00e153ea5d16.png"
+echo [38/38] 7_14.png
+curl %CURLOPTS% -o "secretary-fixed-38\7_14.png" "https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260809_132142_f95ecde8-7e55-4619-99ff-61b07bd0e85d.png"
 echo.
-echo Done. Files are in "%cd%\secretary-fixed-51"
+echo Done. Files are in "%cd%\secretary-fixed-38"
 pause
