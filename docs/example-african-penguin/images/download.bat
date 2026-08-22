@@ -20,7 +20,7 @@ powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm9
 echo [6/78] 0_35.png
 powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164226_ebbdfd2f-25bd-4e99-a06e-4a4225633369.png' -OutFile 'frames\0_35.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [7/78] 0_42.png
-powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164226_b2bc7fc6-37ef-40b9-bbd5-6dc9fe429cf4.png' -OutFile 'frames\0_42.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
+powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260822_162620_f5be2a15-a316-4ded-b643-2234158e12a5.png' -OutFile 'frames\0_42.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [8/78] 0_49.png
 powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164226_a0e7649b-639c-41f3-bb4e-698b01fe4161.png' -OutFile 'frames\0_49.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [9/78] 0_56.png
@@ -30,9 +30,9 @@ powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm9
 echo [11/78] 1_10.png
 powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164226_1d30f688-7d5f-4586-b7b1-39287273db13.png' -OutFile 'frames\1_10.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [12/78] 1_17.png
-powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164226_3ecdde54-f051-48c6-871e-daec1e7dbcb9.png' -OutFile 'frames\1_17.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
+powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260822_162620_057f9b00-8c1a-40b0-9dca-d878d59e5853.png' -OutFile 'frames\1_17.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [13/78] 1_24.png
-powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164355_db70d7db-019e-4e1e-9b56-cf65c912eb50.png' -OutFile 'frames\1_24.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
+powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260822_162620_40a90ee2-a40b-4bb4-900f-ed2a9debb053.png' -OutFile 'frames\1_24.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [14/78] 1_31.png
 powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164355_36892d2e-b5bc-4671-be1c-14cf5feff34b.png' -OutFile 'frames\1_31.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [15/78] 1_38.png
@@ -148,7 +148,7 @@ powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm9
 echo [70/78] 8_03.png
 powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164744_8daa8331-a0d5-4165-8f67-ce41dd8a019a.png' -OutFile 'frames\8_03.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [71/78] 8_10.png
-powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164744_b87dada3-21f9-4489-aa9b-9ac5d45b55b7.png' -OutFile 'frames\8_10.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
+powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260822_162620_c6ab816e-f57e-48f1-a9f7-503c9ccecfd4.png' -OutFile 'frames\8_10.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [72/78] 8_17.png
 powershell -NoProfile -Command "try { Invoke-WebRequest -Uri 'https://d8j0ntlcm91z4.cloudfront.net/user_3H0VpNOETP4iFCc9Ircvn51x9LF/hf_20260820_164744_9fcc32d3-0183-4cae-8722-5ebf85aa8e4c.png' -OutFile 'frames\8_17.png' -UseBasicParsing } catch { Write-Host '  FAILED:' $_.Exception.Message }"
 echo [73/78] 8_24.png

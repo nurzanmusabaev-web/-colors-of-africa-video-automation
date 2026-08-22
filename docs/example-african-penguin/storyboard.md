@@ -22,16 +22,16 @@
 [0:21] (IMAGE: full-body portrait of an adult African penguin standing on a sunlit granite boulder, glossy black back, white belly crossed by a black horseshoe band, pink bare skin above each eye)
 [0:28] (IMAGE: extreme macro of the pink gland patch above the eye, fine detail, thermoregulatory skin bright against black-and-white feathers)
 [0:35] (IMAGE: a raft of penguins porpoising fast through clear turquoise water just offshore, breaking the surface together in a line of splashes)
-[0:42] (IMAGE: wide shot of a colony stretch showing natural nest scrapes under low vegetation beside rows of white artificial nest igloos set among the rocks)
+[0:42] (IMAGE: wide shot of a colony stretch showing natural nest scrapes under low vegetation beside rows of white dome-shaped artificial nest boxes set among the rocks)
 [0:49] (IMAGE: an adult penguin braying, head thrown fully back, bill wide open mid-call, chest puffed)
 [0:56] (IMAGE: iconic wide shot of Boulders Beach — huge rounded granite boulders, white sand, bright turquoise water, a handful of penguins scattered among the rocks)
 [1:03] (IMAGE: close profile portrait of an adult, sharp dark eye, vivid pink gland patch, black and white plumage crisp in bright sun)
 [1:10] (IMAGE: a mated pair standing bill to bill on a boulder, mutual preening, an intimate bonding moment)
-[1:17] (IMAGE: the entrance of a white artificial nest igloo tucked between two boulders, one adult standing guard at the opening)
+[1:17] (IMAGE: the entrance of a white dome-shaped artificial nest box tucked between two boulders, one adult standing guard at the opening)
 
 ## DAY 1 — THE EGGS
 
-[1:24] (IMAGE: inside the nest igloo, two pale bluish-white eggs resting on a thin lining of dry grass and feathers, soft shaded light)
+[1:24] (IMAGE: inside the nest box, two pale bluish-white eggs resting on a thin lining of dry grass and feathers, soft shaded light)
 [1:31] (IMAGE: the female settling onto the eggs, brood patch pressed to the shells, wings half-lifted, careful movement)
 [1:38] (IMAGE: the male returning from the sea, waddling up bright white sand, silhouetted against sparkling water)
 [1:45] (IMAGE: the changeover at the nest — one adult arriving as the other steps out toward the water)
@@ -110,7 +110,7 @@
 
 [7:56] (IMAGE: wide shot — the juvenile now indistinguishable from the adults, resting on a boulder among the colony in bright light)
 [8:03] (IMAGE: a researcher's gloved hand, gently fitting a small numbered flipper band on a calm adult penguin, careful conservation monitoring, not harm)
-[8:10] (IMAGE: rows of white artificial nest igloos stretching along a stretch of bare, guano-stripped rock under a bright sky)
+[8:10] (IMAGE: rows of white dome-shaped artificial nest boxes stretching along a stretch of bare, guano-stripped rock under a bright sky)
 [8:17] (IMAGE: a rescued, cleaned penguin being released from a carrier crate onto the beach, walking free toward the water)
 [8:24] (IMAGE: the colony at golden hour — adults, juveniles, and a scatter of empty nest sites all visible in one warm-lit frame)
 [8:31] (IMAGE: close on the original chick, now a sleek juvenile, standing at the water's edge beside its parent in bright light)
