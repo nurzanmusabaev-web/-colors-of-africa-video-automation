@@ -1,0 +1,626 @@
+[
+ {
+  "index": 0,
+  "tc": "0:00",
+  "name": "0_00",
+  "source_job_id": "19dcca8b-c6a6-4b93-8a4e-fe7fa300e125",
+  "category": "gentle",
+  "prompt": "Camera holds on the wide coastline, a couple of distant penguins shift and waddle a few steps, gentle waves roll in and recede along the shore. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 1,
+  "tc": "0:07",
+  "name": "0_07",
+  "source_job_id": "d1a31e45-20b1-407b-8d22-2d169f3978b5",
+  "category": "gentle",
+  "prompt": "The penguin's head swivels side to side scanning for danger, weight shifting slightly foot to foot, feathers ruffling faintly in the sea breeze. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 2,
+  "tc": "0:14",
+  "name": "0_14",
+  "source_job_id": "f9382450-c014-4f34-91c4-6efdf2f1fa7c",
+  "category": "gentle",
+  "prompt": "The adult finishes lowering onto the eggs, wings settling and folding down snugly, a final small adjustment of posture. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 3,
+  "tc": "0:21",
+  "name": "0_21",
+  "source_job_id": "e946c159-280f-4973-a91e-c0e3d4dfa95d",
+  "category": "gentle",
+  "prompt": "The penguin shifts its weight, turns its head slightly toward camera, feathers ruffle gently in the breeze. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 4,
+  "tc": "0:28",
+  "name": "0_28",
+  "source_job_id": "992c8f54-0c66-4b2b-b6e0-7b08dee43a8e",
+  "category": "gentle",
+  "prompt": "Slow macro push toward the pink gland patch, faint skin texture and a few feather-barbs trembling in the breeze. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 5,
+  "tc": "0:35",
+  "name": "0_35",
+  "source_job_id": "ebbdfd2f-25bd-4e99-a06e-4a4225633369",
+  "category": "sharp",
+  "prompt": "The raft of penguins porpoises hard through the water, breaking the surface again and again in quick arcs, spray flying. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 6,
+  "tc": "0:42",
+  "name": "0_42",
+  "source_job_id": "7d59a652-1ddd-4068-9399-ce3cc2816ba8",
+  "category": "gentle",
+  "prompt": "Distant penguins shuffle between nest scrapes, one flaps briefly, ambient colony activity across the wide frame. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 7,
+  "tc": "0:49",
+  "name": "0_49",
+  "source_job_id": "a0e7649b-639c-41f3-bb4e-698b01fe4161",
+  "category": "gentle",
+  "prompt": "The penguin's head snaps back and the bill opens wide for the bray call, chest pumping, then settles back to a normal stance. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 8,
+  "tc": "0:56",
+  "name": "0_56",
+  "source_job_id": "3488801e-15ff-4c59-8410-d729079d353e",
+  "category": "gentle",
+  "prompt": "Waves roll steadily onto the sand, a couple of distant penguins waddle unhurried among the boulders. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 9,
+  "tc": "1:03",
+  "name": "1_03",
+  "source_job_id": "9a86e312-8147-4123-96a3-5e1e76f608c2",
+  "category": "gentle",
+  "prompt": "Slow head turn in profile, a single blink, feathers shifting slightly in the wind. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 10,
+  "tc": "1:10",
+  "name": "1_10",
+  "source_job_id": "1d30f688-7d5f-4586-b7b1-39287273db13",
+  "category": "gentle",
+  "prompt": "The pair gently nibble and preen each other's neck feathers, swaying slightly together. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 11,
+  "tc": "1:17",
+  "name": "1_17",
+  "source_job_id": "fd0e8ddb-bfdd-4866-98a6-cc64199bf519",
+  "category": "gentle",
+  "prompt": "The guarding adult shifts its stance at the nest entrance, head turning to check the surroundings. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 12,
+  "tc": "1:24",
+  "name": "1_24",
+  "source_job_id": "5c1c462e-c628-4c15-978f-8deb0983d757",
+  "category": "gentle",
+  "prompt": "Soft directional light drifts subtly across the two eggs, no other motion. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 13,
+  "tc": "1:31",
+  "name": "1_31",
+  "source_job_id": "36892d2e-b5bc-4671-be1c-14cf5feff34b",
+  "category": "gentle",
+  "prompt": "The female settles her weight fully onto the eggs, wings making a final small adjustment. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 14,
+  "tc": "1:38",
+  "name": "1_38",
+  "source_job_id": "3d3f98a6-e0d4-4a5c-b6aa-0b39a1fb70ac",
+  "category": "gentle",
+  "prompt": "The male continues waddling up the sand at a steady natural pace, water glinting behind him. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 15,
+  "tc": "1:45",
+  "name": "1_45",
+  "source_job_id": "3b5b4d8a-99cd-473d-beec-bb47a8fca91f",
+  "category": "gentle",
+  "prompt": "One adult arrives at the nest as the other turns and starts walking away toward the water. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 16,
+  "tc": "1:52",
+  "name": "1_52",
+  "source_job_id": "86feaa2d-b300-437e-b5fa-37b599e00e46",
+  "category": "sharp",
+  "prompt": "The gull banks sharply and circles low, wings snapping against the air, sudden shifts of angle as it scans the ground. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 17,
+  "tc": "1:59",
+  "name": "1_59",
+  "source_job_id": "5c18c608-032f-466e-a68d-58dbc17b87dd",
+  "category": "sharp",
+  "prompt": "The gull drops abruptly and lands hard, wings folding fast, head snapping side to side as it eyes the eggs. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 18,
+  "tc": "2:06",
+  "name": "2_06",
+  "source_job_id": "85f8d90d-e704-4285-9305-6c25912d2893",
+  "category": "sharp",
+  "prompt": "The adult penguin lunges forward explosively, wings snapping open, bill jabbing at the gull, which bursts upward in a sudden scramble of feathers. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 19,
+  "tc": "2:13",
+  "name": "2_13",
+  "source_job_id": "e46d16ce-db37-4f6c-8151-de1583e8a0ad",
+  "category": "gentle",
+  "prompt": "The hairline crack in the shell inches wider almost imperceptibly, a tiny fragment flexing. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 20,
+  "tc": "2:20",
+  "name": "2_20",
+  "source_job_id": "d18a501b-91ef-4594-b3d3-26b18b3bcb4a",
+  "category": "gentle",
+  "prompt": "The egg tooth pushes further through the crack, the shell flexing and splintering slightly more. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 21,
+  "tc": "2:27",
+  "name": "2_27",
+  "source_job_id": "941f8658-081c-4d44-8f3e-2d7da30bbd8a",
+  "category": "gentle",
+  "prompt": "The wet chick shifts and struggles weakly inside the shell fragments, head lifting slightly. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 22,
+  "tc": "2:34",
+  "name": "2_34",
+  "source_job_id": "df976e78-26cc-4627-9bf7-ec956ee3ef75",
+  "category": "gentle",
+  "prompt": "The chick's down puffs up as it dries, eyes blinking open, a first wobbly attempt to lift its head. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 23,
+  "tc": "2:41",
+  "name": "2_41",
+  "source_job_id": "7c3a3a21-37cd-4717-9ee3-cd377b25ba11",
+  "category": "gentle",
+  "prompt": "The adult's bill lowers slowly and nudges the chick with careful, gentle precision. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 24,
+  "tc": "2:48",
+  "name": "2_48",
+  "source_job_id": "89194d48-6208-4fd5-9e82-1eec5dcabe3e",
+  "category": "gentle",
+  "prompt": "The second shell cracks and splits further as the new chick pushes free beside its larger sibling. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 25,
+  "tc": "2:55",
+  "name": "2_55",
+  "source_job_id": "c042ae1a-b39e-4b3e-bd78-83e7a1358c32",
+  "category": "gentle",
+  "prompt": "The two chicks shift and huddle closer together, small movements as they settle into the lining. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 26,
+  "tc": "3:02",
+  "name": "3_02",
+  "source_job_id": "1d2d2483-6dc6-4ab3-817e-71640432b454",
+  "category": "gentle",
+  "prompt": "The adult's head bobs down in a quick pumping motion, transferring food, the chick's bill working eagerly. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 27,
+  "tc": "3:09",
+  "name": "3_09",
+  "source_job_id": "c6f096f4-1a1f-4d7e-94f0-85eee7b8e954",
+  "category": "gentle",
+  "prompt": "The larger chick pumps its head rapidly feeding, the smaller one shuffles and stretches its neck up hopefully. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 28,
+  "tc": "3:16",
+  "name": "3_16",
+  "source_job_id": "69755b61-21fa-43e8-9910-4cad4bfb0ec1",
+  "category": "gentle",
+  "prompt": "The chick's head bobs and pushes deeper as it feeds, small determined movements. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 29,
+  "tc": "3:23",
+  "name": "3_23",
+  "source_job_id": "7fdf7d8a-1618-44a6-8793-193c88be9322",
+  "category": "gentle",
+  "prompt": "The adult's wings stay spread steady as a sunshade, both chicks panting gently underneath, barely moving in the heat. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 30,
+  "tc": "3:30",
+  "name": "3_30",
+  "source_job_id": "a81fb47c-25d5-4251-ab3a-12d875cdf149",
+  "category": "sharp",
+  "prompt": "The mongoose darts along the rocks in short sharp bursts, freezing, then bolting forward again, head snapping toward sounds. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 31,
+  "tc": "3:37",
+  "name": "3_37",
+  "source_job_id": "21ad5fdf-aa3f-46b9-8bd9-c11f699bd016",
+  "category": "sharp",
+  "prompt": "The adult penguin jerks upright, wings snapping half-open, lunging a step toward the mongoose with a sharp bill-snap warning. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 32,
+  "tc": "3:44",
+  "name": "3_44",
+  "source_job_id": "8f9d3f20-13bf-4ccf-99b3-aaf25a925f26",
+  "category": "sharp",
+  "prompt": "The mongoose spins and bolts abruptly, darting fast between the boulders and out of sight. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 33,
+  "tc": "3:51",
+  "name": "3_51",
+  "source_job_id": "0bed20ca-c814-4556-b537-9f07c6024af9",
+  "category": "gentle",
+  "prompt": "The chicks breathe slowly in sleep, the sentinel adult shifts its weight occasionally, scanning the dusk. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 34,
+  "tc": "3:58",
+  "name": "3_58",
+  "source_job_id": "6f831c9c-3ace-4b3a-853d-5a5746676da4",
+  "category": "gentle",
+  "prompt": "Mist drifts slowly off the sea in the dawn light, one chick stirs and lifts its head while the other stays still. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 35,
+  "tc": "4:05",
+  "name": "4_05",
+  "source_job_id": "6129ec10-6839-4903-92a3-7f5a890f0aea",
+  "category": "gentle",
+  "prompt": "Wide static hold on the shoreline, a lone distant adult shifts at one of the few occupied nests. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 36,
+  "tc": "4:12",
+  "name": "4_12",
+  "source_job_id": "3f5f8eac-dc32-44c4-8cfe-67b2e88c6be3",
+  "category": "gentle",
+  "prompt": "Dry grass sways faintly in the breeze over the empty scrape, otherwise still. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 37,
+  "tc": "4:19",
+  "name": "4_19",
+  "source_job_id": "a3764fda-9145-4a5a-a32f-a25903e3d892",
+  "category": "gentle",
+  "prompt": "The alert adult shifts its stance, one chick nudges against the other, ambient stillness in the nests nearby. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 38,
+  "tc": "4:26",
+  "name": "4_26",
+  "source_job_id": "15d93334-981c-4fa7-afd3-112831e32c19",
+  "category": "gentle",
+  "prompt": "The trawler drifts almost imperceptibly along the horizon, waves glinting. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 39,
+  "tc": "4:33",
+  "name": "4_33",
+  "source_job_id": "61d85de3-fb08-438a-8470-7c81abc17634",
+  "category": "sharp",
+  "prompt": "The adult penguin twists and accelerates hard underwater, jerking sharply left and right chasing the scattering fish, spray and bubbles trailing. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 40,
+  "tc": "4:40",
+  "name": "4_40",
+  "source_job_id": "a1f046bc-9fb8-4dc8-90d0-38f979b6374e",
+  "category": "sharp",
+  "prompt": "The adult bursts through the surface in a sudden splash, fish gripped in its bill, shaking water off in a quick jerk. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 41,
+  "tc": "4:47",
+  "name": "4_47",
+  "source_job_id": "bee39009-94ed-4c69-b555-23eeae1be97f",
+  "category": "gentle",
+  "prompt": "The adult waddles up to the nest at a steady pace, both chicks pushing eagerly toward it. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 42,
+  "tc": "4:54",
+  "name": "4_54",
+  "source_job_id": "a9a6a04e-005f-4edd-80b1-b112e29d7b3b",
+  "category": "gentle",
+  "prompt": "The chicks shift and stretch, down catching the light, small restless movements. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 43,
+  "tc": "5:01",
+  "name": "5_01",
+  "source_job_id": "c1a2d334-acc5-442b-948f-50b39a081033",
+  "category": "gentle",
+  "prompt": "The two chicks shuffle and resettle in the empty nest, glancing around occasionally. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 44,
+  "tc": "5:08",
+  "name": "5_08",
+  "source_job_id": "bcdf41d3-a4b1-4547-bcad-d51a5644bf32",
+  "category": "gentle",
+  "prompt": "The chicks press closer together, small adjusting movements, feathers shifting in the breeze. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 45,
+  "tc": "5:15",
+  "name": "5_15",
+  "source_job_id": "c80cc459-cb4d-48a9-9778-9c1f48db5660",
+  "category": "sharp",
+  "prompt": "The gull circles low again, wingtips slicing the air, banking sharply as it eyes the nest. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 46,
+  "tc": "5:22",
+  "name": "5_22",
+  "source_job_id": "33cd2950-8476-4b98-b1b2-67e44a5754af",
+  "category": "sharp",
+  "prompt": "The chick lunges upward and pecks hard and fast at the gull, which flinches back and beats off abruptly. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 47,
+  "tc": "5:29",
+  "name": "5_29",
+  "source_job_id": "92000ded-4682-4d17-a178-a0675ea70f61",
+  "category": "gentle",
+  "prompt": "The parents stride up the beach at a brisk, purposeful pace, both chicks rushing eagerly to meet them. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 48,
+  "tc": "5:36",
+  "name": "5_36",
+  "source_job_id": "bc1f6fa3-fdb7-4582-932b-37953e5eecc6",
+  "category": "gentle",
+  "prompt": "The chick's head turns slightly, patchy down trembling faintly, an eye blinking. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 49,
+  "tc": "5:43",
+  "name": "5_43",
+  "source_job_id": "57117b29-2f8d-429c-af6b-9d070ec74969",
+  "category": "gentle",
+  "prompt": "The chick shifts its half-downy flippers, holding them out and lowering them awkwardly. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 50,
+  "tc": "5:50",
+  "name": "5_50",
+  "source_job_id": "a952f8b5-cb15-4443-b83d-455a341a8076",
+  "category": "gentle",
+  "prompt": "The two chicks shuffle and resettle beside each other, small comparative movements. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 51,
+  "tc": "5:57",
+  "name": "5_57",
+  "source_job_id": "95b3f1e8-76fb-4a97-a33a-2d13d3444075",
+  "category": "gentle",
+  "prompt": "The smaller chick stretches and strains toward the parent's bill, just missing its turn again. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 52,
+  "tc": "6:04",
+  "name": "6_04",
+  "source_job_id": "eeda8516-e2a0-4528-b583-47b73cb87160",
+  "category": "gentle",
+  "prompt": "The chick shakes lightly, loose down fluttering off as sleek feathers show through underneath. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 53,
+  "tc": "6:11",
+  "name": "6_11",
+  "source_job_id": "a1258130-dac7-4807-a44d-5591628a2241",
+  "category": "gentle",
+  "prompt": "Loose down tufts drift and tumble slightly in the breeze across the nest floor. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 54,
+  "tc": "6:18",
+  "name": "6_18",
+  "source_job_id": "3ece499c-db10-4f0d-a32a-3c629089a16a",
+  "category": "gentle",
+  "prompt": "The chick's bill tugs and picks at its own loose down in quick little plucking motions. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 55,
+  "tc": "6:25",
+  "name": "6_25",
+  "source_job_id": "343ad5f2-e354-4569-a08f-b021ce3eac1f",
+  "category": "gentle",
+  "prompt": "The juvenile turns slowly, new blue-grey plumage catching the light as it shifts its stance. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 56,
+  "tc": "6:32",
+  "name": "6_32",
+  "source_job_id": "52fee1cb-117a-4ddf-adea-b534e698b312",
+  "category": "gentle",
+  "prompt": "The juvenile pushes upright for the first time, wobbling slightly before finding its balance. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 57,
+  "tc": "6:39",
+  "name": "6_39",
+  "source_job_id": "81ebbe1f-904b-4fc9-a235-2aecfa798928",
+  "category": "gentle",
+  "prompt": "The smaller downy chick shuffles beside its sleek juvenile sibling, a size comparison in small movements. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 58,
+  "tc": "6:46",
+  "name": "6_46",
+  "source_job_id": "fe185ad9-039f-41ca-bd2e-740eabee1b04",
+  "category": "gentle",
+  "prompt": "The juvenile's head tilts toward the water, feet shifting closer to the edge of the nest platform. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 59,
+  "tc": "6:53",
+  "name": "6_53",
+  "source_job_id": "7047774e-f7f5-4ca1-9a81-75511a19193c",
+  "category": "gentle",
+  "prompt": "The juvenile waddles forward in stiff, careful first steps over the rocks. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 60,
+  "tc": "7:00",
+  "name": "7_00",
+  "source_job_id": "945638fc-3bd1-41b4-9917-020230b5f9d2",
+  "category": "sharp",
+  "prompt": "A wave surges in fast and washes over the juvenile's feet — it flinches back sharply and jerks away from the foam. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 61,
+  "tc": "7:07",
+  "name": "7_07",
+  "source_job_id": "f2c6b9f9-2849-4004-b8f8-4b7f02e60a9c",
+  "category": "sharp",
+  "prompt": "The juveniles jostle and shove each other abruptly at the water's edge, quick nervous shuffling and pushing. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 62,
+  "tc": "7:14",
+  "name": "7_14",
+  "source_job_id": "5521c050-c553-4147-afe9-0d45eb92da34",
+  "category": "sharp",
+  "prompt": "The crowd behind shoves suddenly and the juvenile is knocked forward, vanishing under a breaking wave in a sudden splash. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 63,
+  "tc": "7:21",
+  "name": "7_21",
+  "source_job_id": "d70ba9a3-7618-4e9b-a4ac-8955dcd83567",
+  "category": "sharp",
+  "prompt": "The juvenile rockets through the water, twisting and turning sharply, completely transformed, trailing a burst of bubbles. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 64,
+  "tc": "7:28",
+  "name": "7_28",
+  "source_job_id": "ddd4c189-4f43-4762-917b-9bc3fe07e366",
+  "category": "sharp",
+  "prompt": "The juvenile porpoises hard alongside the adults, breaking the surface again and again in fast synchronized arcs. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 65,
+  "tc": "7:35",
+  "name": "7_35",
+  "source_job_id": "cabfead0-e62a-4d36-ae7f-4e2b46b69e17",
+  "category": "sharp",
+  "prompt": "The juvenile darts sharply downward after the fish shoal, twisting and turning fast in pursuit alongside the adults. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 66,
+  "tc": "7:42",
+  "name": "7_42",
+  "source_job_id": "310763e5-46e2-46ae-85a7-970213157d06",
+  "category": "sharp",
+  "prompt": "The juvenile bursts through the surface with a sudden splash, fish clamped hard in its bill, shaking off water in a quick jerk. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 67,
+  "tc": "7:49",
+  "name": "7_49",
+  "source_job_id": "ed910bed-0ad0-4f05-83ec-03be4430bf38",
+  "category": "gentle",
+  "prompt": "The smaller chick shifts, loose down fluttering off in the breeze at the empty nest. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 68,
+  "tc": "7:56",
+  "name": "7_56",
+  "source_job_id": "a2a69ac9-2acf-4fdb-8e00-21931c7753dd",
+  "category": "gentle",
+  "prompt": "The young adult shifts its stance slightly on the boulder, colony activity moving gently in the background. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 69,
+  "tc": "8:03",
+  "name": "8_03",
+  "source_job_id": "8daa8331-a0d5-4165-8f67-ce41dd8a019a",
+  "category": "gentle",
+  "prompt": "The researcher's gloved hand moves slowly and precisely, fitting the band with careful, deliberate motion, the penguin staying calm and still. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 70,
+  "tc": "8:10",
+  "name": "8_10",
+  "source_job_id": "a6ef1912-e4be-428b-8b4d-7698a75a97eb",
+  "category": "gentle",
+  "prompt": "Wide static hold on the bare stretch of rock, faint heat shimmer, no motion. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 71,
+  "tc": "8:17",
+  "name": "8_17",
+  "source_job_id": "9fcc32d3-0183-4cae-8722-5ebf85aa8e4c",
+  "category": "gentle",
+  "prompt": "The rescued penguin takes cautious, steady steps out of the crate and down toward the water. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 72,
+  "tc": "8:24",
+  "name": "8_24",
+  "source_job_id": "09cbce7c-b8c4-41d5-a7e5-a4f2489274e4",
+  "category": "gentle",
+  "prompt": "Colony activity drifts gently across the golden-lit frame, birds shifting and settling. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 73,
+  "tc": "8:31",
+  "name": "8_31",
+  "source_job_id": "f0b05723-2c46-4a94-8791-67b52409dcba",
+  "category": "gentle",
+  "prompt": "The young penguin and its parent stand close, small shifting movements at the water's edge. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 74,
+  "tc": "8:38",
+  "name": "8_38",
+  "source_job_id": "4257424d-566d-4a08-808b-9c5a0f2b1bcc",
+  "category": "sharp",
+  "prompt": "Parent and grown offspring surge forward together into the water, porpoising hard side by side, fast synchronized bursts through the waves. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 75,
+  "tc": "8:45",
+  "name": "8_45",
+  "source_job_id": "d64fb853-5e36-45a0-9d74-a475036d10e6",
+  "category": "gentle",
+  "prompt": "Wide static hold, waves rolling steadily along the distant shoreline. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ },
+ {
+  "index": 76,
+  "tc": "8:52",
+  "name": "8_52",
+  "source_job_id": "72144c93-ba80-4bb4-ae1d-2df35b430420",
+  "category": "sharp",
+  "prompt": "The young adult bursts forward and porpoises hard out into open water, quick powerful arcs carrying it away from shore. Motion pacing: sharp, sudden, real-time speed — abrupt turns, jerky strikes, snapping bites, quick darting jumps, sudden changes of direction. No slow motion, no dreamy smoothness — fast and startling like a real wildlife camera catching a fast event."
+ },
+ {
+  "index": 77,
+  "tc": "8:59",
+  "name": "8_59",
+  "source_job_id": "948cf885-1001-439f-b8cc-8a61870c4c68",
+  "category": "gentle",
+  "prompt": "Waves roll slowly onto the golden-lit shore, a few distant silhouettes shift almost imperceptibly. Motion pacing: natural, smooth, slightly slow cinematic documentary motion, subtle camera drift, no sudden or jerky movement."
+ }
+]
